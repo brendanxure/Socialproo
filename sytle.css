@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./src/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 700px;
+
+}
+.container {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 900px;
+    background-image: url(./src/bg-pattern-bottom-desktop.svg);
+}
+.first-body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    color: hsl(300, 43%, 22%);
+}
+i {
+    color: gold;
+}
+.weonly {
+    padding-top: 20px;
+    font-size: 15px;
+}
+.star1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px 20px 0px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    height: 30px;
+    width: 280px;  
+}
+.star2 {
+    margin: 0px 0px 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    height: 30px;
+    width: 310px;  
+}
+.star3 {
+    margin: 0px 0px 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    height: 30px;
+    width: 310px;  
+}
+span {
+    margin-left: 10px;
+}
+.second-body {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+}
+.image {
+    padding: 10px 0px 0px 10px;
+    display: flex;
+}
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.colton {
+    height: 208px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 11px;
+}
+.irene {
+    height: 208px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 30px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 11px;
+}
+.anne {
+    height: 208px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 50px 10px 10px 10px;
+    padding: 10px; 
+    border-radius: 11px;
+}
+.buyertag {
+    margin-left: 10px;
+}
+.paragraph {
+    padding: 30px 10px 10px 10px;
+}
+.verified {
+    color: hsl(333, 80%, 67%);
+}
+@media (max-width: 921px) and (min-width:612px) {
+    .colton {
+        height: 280px;
+    }    
+    .irene {
+        height: 280px;
+    }    
+    .anne {
+        height: 280px;
+    }    
+}
+@media (max-width: 611px) {
+    .second-body {
+        display: grid;
+    }
+    .stars {
+        display: none;
+    }
+}
+@media (max-width: 310px) {
+    .colton {
+        height: 280px;
+    }    
+    .irene {
+        height: 280px;
+    }    
+    .anne {
+        height: 280px;
+    }    
+}
